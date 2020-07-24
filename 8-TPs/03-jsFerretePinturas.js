@@ -16,5 +16,12 @@ function FahrenheitCentigrados ()
 
 function CentigradosFahrenheit () 
 {
+    let gradosFah;
+    let gradosCen;
 
+    gradosCen = parseFloat(document.getElementById("txtIdTemperatura").value);
+
+    gradosFah = ((gradosCen * 9/5) + 32); 
+
+    alert(gradosCen + " Centígrados son " + gradosFah + " Fahrenheit.");
 }

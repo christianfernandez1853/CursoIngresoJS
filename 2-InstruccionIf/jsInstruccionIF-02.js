@@ -4,8 +4,8 @@ function mostrar()
 
 	edad = parseInt(document.getElementById("txtIdEdad").value);
 
-	if(edad>18 || edad==18)
+	if(edad >= 18)
 	{
-		alert("Usted es mayor de edad.")
+		alert("Usted es mayor de edad.");
 	}
 }
