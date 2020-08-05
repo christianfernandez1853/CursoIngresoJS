@@ -6,6 +6,9 @@ function mostrar()
 	switch (destino)
 	{
 		case "Bariloche":
+			alert("Oeste");
+			break;
+			
 		case "Ushuaia":
 			alert("Sur");
 			break;

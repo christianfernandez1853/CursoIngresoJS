@@ -3,6 +3,7 @@ function mostrar()
 	let estacion;
 	let destino;
 	let precioFinal;
+	const precio = 15000;
 
 	estacion = document.getElementById("txtIdEstacion").value;
 	destino = document.getElementById("txtIdDestino").value;
@@ -13,18 +14,18 @@ function mostrar()
 			switch (destino)
 			{
 				case "Bariloche":
-				precioFinal = 15000 * 1.2;
+				precioFinal = precio * 1.2;
 				alert("El precio final es: $" + precioFinal);
 				break;
 
 				case "Cataratas":
 				case "Cordoba":
-				precioFinal = 15000 * 0.9;
+				precioFinal = precio * 0.9;
 				alert("El precio final es: $" + precioFinal);
 				break;
 
 				case "Mar del plata":
-				precioFinal = 15000 * 0.8;
+				precioFinal = precio * 0.8;
 				alert("El precio final es: $" + precioFinal);
 				break;
 			}
@@ -34,18 +35,18 @@ function mostrar()
 			switch (destino)
 			{
 				case "Bariloche":
-				precioFinal = 15000 * 0.8;
+				precioFinal = precio * 0.8;
 				alert("El precio final es: $" + precioFinal);
 				break;
 
 				case "Cataratas":
 				case "Cordoba":
-				precioFinal = 15000 * 1.1;
+				precioFinal = precio * 1.1;
 				alert("El precio final es: $" + precioFinal);
 				break;
 
 				case "Mar del plata":
-				precioFinal = 15000 * 1.2;
+				precioFinal = precio * 1.2;
 				alert("El precio final es: $" + precioFinal);
 				break;
 			}
@@ -58,12 +59,12 @@ function mostrar()
 				case "Bariloche":	
 				case "Cataratas":
 				case "Mar del plata":
-				precioFinal = 15000 * 1.1;
+				precioFinal = precio * 1.1;
 				alert("El precio final es: $" + precioFinal);
 				break;
 	
 				case "Cordoba":
-				precioFinal = 15000;
+				precioFinal = precio;
 				alert("El precio final es: $" + precioFinal);
 				break;
 			}
